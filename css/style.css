@@ -15,8 +15,21 @@ nav a {
     padding: 10px;
 }
 
+section {
+    font-size: 14px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
 .profile img {
-    width: 100px;
+    width: 150px;
     border-radius: 50%;
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.profile p {
+    margin-left: 20px;
 }
