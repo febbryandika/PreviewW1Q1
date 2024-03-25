@@ -22,6 +22,7 @@ section {
 .profile {
     display: flex;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .profile img {
@@ -32,4 +33,15 @@ section {
 
 .profile p {
     margin-left: 20px;
+}
+
+#projects {
+    width: 80%;
+    margin: auto;
+}
+
+article {
+    border: 2px solid lightgray;
+    margin: 10px 0;
+    padding: 10px;
 }
